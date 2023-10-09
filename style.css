@@ -1,20 +1,71 @@
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: #000000;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: center;
+  padding: 10px;
+}
+main {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 h1 {
   color: #ffffff;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.section-perfis {
+  width: 1000px;
+  margin: 50px auto 50px auto;
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+  gap: 20px;
 }
 
 .a-nome-perfis {
   color: #808080;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
 }
 
-.a-geren-perfis {
-  color: #ffffff;
+.a-nome-perfis img {
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.button-perfis {
+  display: flex;
+  justify-content: center;
 }
 
 button {
   background-color: #000000;
+  border-radius: 5px;
+  border: 1px solid #ffffff;
+  padding: 10px 20px 10px 20px;
+}
+
+.a-geren-perfis {
+  color: #ffffff;
+  font-size: 15px;
+  text-decoration: none;
 }
